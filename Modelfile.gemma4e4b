@@ -1,0 +1,4 @@
+FROM gemma4:e4b
+
+# 컨텍스트 길이를 8192로 늘림 (기본값 4096 → 오류 해결)
+PARAMETER num_ctx 8192
